@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white03">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="70dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="#BFF8FF"
+                android:orientation="vertical"
+                android:padding="8dp"
+                >
+                <SearchView
+                    android:background="@color/white02"
+                    android:layout_width="392dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@color/white02"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Kategori " />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/celana_icon" />
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/topi_icon" />
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/sepatu_icon" />
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/sweeters_icon" />
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/baju_icon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/signin_btn" />
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/signin_btn" />
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/signin_btn" />
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/signin_btn" />
+
+                    <ImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="59dp"
+                        android:layout_height="59dp"
+                        android:src="@drawable/signin_btn" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white02"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/banner" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <LinearLayout
+                    android:id="@+id/productDetail1"
+                    android:layout_width="185dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white02"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="110dp"
+                        android:src="@drawable/product_sweeter" />
+
+                    <TextView
+                        android:id="@+id/textProduct1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wavvy - Hoodie Prem RP.Rp.250.000"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="11dp"
+                        android:fontFamily="@font/poppins_regular" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="185dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white02"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="110dp"
+                        android:src="@drawable/product_boxer" />
+
+                    <TextView
+                        android:id="@+id/textProduct2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Neawey - Boxer Pria RP.Rp.100.000"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="11dp"
+                        android:fontFamily="@font/poppins_regular" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayoutDetailProduct"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/homeBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHome"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:text="Home"
+                        android:textAlignment="center"
+                        android:textColor="@color/base01"
+                        android:fontFamily="@font/poppins_bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/productBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:text="Produk"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:text="Pesanan"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/profileBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:text="Profile"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_bold"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.bottomappbar.BottomAppBar>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
